@@ -2,10 +2,13 @@
 
 some app we made to pass
 
-# roadmap
+# Roadmap
 
-ability for the user to plot out a location in a map
+Infographics about accomodations, places, food. (required)
 
-UI is a map instead of a curated set of infographics
+Search function. (required)
 
-ability for the user to make their own infographic and save to a server
+Map function that tells what part of Samar the place is.
+
+Schedule Calendar for open accomodations.
+
