@@ -1,7 +1,8 @@
-# samar
+# SamarTime
+
 some app we made to pass
 
-ideas for now:
+# roadmap
 
 ability for the user to plot out a location in a map
 
