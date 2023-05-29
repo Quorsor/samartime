@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SamarTime.Activities.HikingPage">
+    <StackLayout>
+        <ScrollView VerticalScrollBarVisibility="Never">
+            <StackLayout Margin="10,0">
+                <Frame Margin="0,20,0,0" 
+                       CornerRadius="20"
+                       HeightRequest="250">
+                    <Image Source="Hiking3.jpg"
+                           Aspect="Fill"/>
+                </Frame>
+                <Label Text="TREKKING OR HIKING"
+                       FontSize="35"
+                       FontAttributes="Bold"
+                       FontFamily="NormalSometimes"/>
+                <Label Text="       Samar offers a variety of trekking and hiking opportunities for outdoor enthusiasts. One popular hiking destination in Samar is the Lulugayan Falls in Calbiga, which requires a trek of approximately 2.5 hours through the jungle and across streams. Another popular hiking spot is the Sohoton Natural Bridge National Park in Basey, which features limestone cliffs, caves, and waterfalls that can be explored on foot. Samar also offers more challenging treks, such as the trek to the summit of Mt. Huraw in San Jorge. The trek takes approximately 4-5 hours and offers stunning views of the surrounding landscape from the summit. The Langun-Gobingob Caves in Calbiga also offer a unique and challenging caving experience for adventure seekers."
+                       FontSize="20"
+                       HorizontalOptions="FillAndExpand"
+                       FontFamily="UniSans" Margin="0,10,0,0"
+                       />
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SamarTime.Accommodations.CiriacoHotelPage">
+    <StackLayout>
+        <ScrollView VerticalScrollBarVisibility="Never">
+            <StackLayout Margin="10,0">
+                <Frame Margin="0,20,0,0" 
+                       CornerRadius="20"
+                       HeightRequest="250">
+                    <Image Source="ciriacohotel1.jpg"
+                           Aspect="Fill"/>
+                </Frame>
+                <Label Text="Ciaraco Hotel"
+                       FontSize="35"
+                       FontAttributes="Bold"
+                       FontFamily="NormalSometimes"/>
+                <Label Text="       The Ciriaco Hotel and Resort is a hotel located in the city of Calbayog in Samar, Philippines. The hotel offers a range of facilities and amenities for guests, including a swimming pool, restaurant, bar, spa, fitness center, and conference rooms. The hotel has received high ratings for its cleanliness, comfort, and friendly staff. It is also located close to popular tourist attractions such as the Tinuy-an Falls, Sohoton Natural Bridge National Park, and the historical Balangiga Bells. "
+                       FontSize="20"
+                       HorizontalOptions="FillAndExpand"
+                       FontFamily="UniSans" Margin="0,10,0,0"
+                       />
+                <Label Text="FACILITIES"
+                       FontSize="30"
+                       FontFamily="NormalSometimes"
+                       FontAttributes="Bold" 
+                       Margin="0,20,0,0"/>
+                <Label Text="-> Airport Transfer"
+                       FontSize="25"
+                       FontFamily="UniSans"
+                       FontAttributes="Bold" 
+                       Margin="0,10,0,0"/>
+                <Label Text="-> Car Park"
+                       FontSize="25"
+                       FontFamily="UniSans"
+                       FontAttributes="Bold" 
+                       Margin="0,10,0,0"/>
+                <Label Text="-> Shuttle Service"
+                       FontSize="25"
+                       FontFamily="UniSans"
+                       FontAttributes="Bold" 
+                       Margin="0,10,0,0"/>
+                <Label Text="-> Free Wi-Fi in all Rooms"
+                       FontSize="25"
+                       FontFamily="UniSans"
+                       FontAttributes="Bold" 
+                       Margin="0,10,0,0"/>
+                <Label Text="-> Free Breakfast"
+                       FontSize="25"
+                       FontFamily="UniSans"
+                       FontAttributes="Bold" 
+                       Margin="0,10,0,0"/>
+                <Label Text="-> Outdoor Swimming Pool"
+                       FontSize="25"
+                       FontFamily="UniSans"
+                       FontAttributes="Bold" 
+                       Margin="0,10,0,0"/>
+                <Label Text="-> Restaurants"
+                       FontSize="25"
+                       FontFamily="UniSans"
+                       FontAttributes="Bold" 
+                       Margin="0,10,0,0"/>
+                <Label Text="-> Coffee Shop"
+                       FontSize="25"
+                       FontFamily="UniSans"
+                       FontAttributes="Bold" 
+                       Margin="0,10,0,0"/>
+                <Label Text="SERVICES"
+                       FontSize="30"
+                       FontFamily="NormalSometimes"
+                       FontAttributes="Bold" 
+                       Margin="0,20,0,0"/>
+                <Label Text="-> Services and Conveniences"
+                       FontSize="25"
+                       FontFamily="UniSans"
+                       FontAttributes="Bold" 
+                       Margin="0,10,0,0"/>
+                <Label Text="-> Concierge"
+                       FontSize="25"
+                       FontFamily="UniSans"
+                       FontAttributes="Bold" 
+                       Margin="0,10,0,0"/>
+                <Label Text="-> Elevator"
+                       FontSize="25"
+                       FontFamily="UniSans"
+                       FontAttributes="Bold" 
+                       Margin="0,10,0,0"/>
+                <Label Text="-> Laundry Service"
+                       FontSize="25"
+                       FontFamily="UniSans"
+                       FontAttributes="Bold" 
+                       Margin="0,10,0,0"/>
+                <Label Text="-> Safety Deposit Boxes"
+                       FontSize="25"
+                       FontFamily="UniSans"
+                       FontAttributes="Bold" 
+                       Margin="0,10,0,20"/>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SamarTime.Activities.KayakingPage">
+    <StackLayout>
+        <ScrollView VerticalScrollBarVisibility="Never">
+            <StackLayout Margin="10,0">
+                <Frame Margin="0,20,0,0" 
+                       CornerRadius="20"
+                       HeightRequest="250">
+                    <Image Source="Kayaking3.jpg"
+                           Aspect="Fill"/>
+                </Frame>
+                <Label Text="KAYAKING"
+                       FontSize="35"
+                       FontAttributes="Bold"
+                       FontFamily="NormalSometimes"/>
+                <Label Text="       Kayaking is a popular activity in Samar, particularly in the Ulot River. The river offers a tranquil and scenic environment, with crystal-clear waters and lush vegetation along its banks. Kayaking along the river is a great way to explore the natural beauty of Samar and appreciate the rich biodiversity of the area. The river has several rapids, providing a fun and thrilling experience for kayakers of all skill levels. Kayaking tours are available, and local guides can provide information about the history and culture of the area. Overall, kayaking in Samar is a must-try activity for adventure seekers and nature lovers."
+                       FontSize="20"
+                       HorizontalOptions="FillAndExpand"
+                       FontFamily="UniSans" Margin="0,10,0,0"
+                       />
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

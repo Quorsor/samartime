@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SamarTime.ActivitiesPage">
+    <StackLayout HorizontalOptions="Center">
+        <ScrollView VerticalScrollBarVisibility="Never">
+            <StackLayout>
+                <Label Text="ACTIVITIES"
+                   FontSize="30"
+                   FontFamily="NormalSometimes"
+                   Padding="0, 20, 0, 0"
+                       TextColor="White"/>
+                <AbsoluteLayout>
+                    <Frame Margin="0, 0, 0, 0"
+                           CornerRadius="20" 
+                           HeightRequest="220"
+                           WidthRequest="366">
+                        <Image Source="Caving1.jpg"
+                               AbsoluteLayout.LayoutBounds="0.5, 0.5"
+                               AbsoluteLayout.LayoutFlags="PositionProportional"
+                               Aspect="Fill"/>
+                    </Frame>
+                    <Label Text="CAVING"
+                           FontFamily="UniSans"
+                           FontSize="22"
+                           AbsoluteLayout.LayoutBounds="7, 181"
+                           TextColor="White"/>
+                    <ImageButton Source="{AppThemeBinding Light=discover_button_light.xml, Dark=discover_button_dark.xml}"
+                                 AbsoluteLayout.LayoutBounds="214, 179"
+                                 Clicked="One"/>
+                </AbsoluteLayout>
+                <AbsoluteLayout>
+                    <Frame Margin="0, 20, 0, 0"
+                           CornerRadius="20" 
+                           HeightRequest="220"
+                           WidthRequest="366">
+                        <Image Source="Diving1.jpg"
+                               AbsoluteLayout.LayoutBounds="0.5, 0.5"
+                               AbsoluteLayout.LayoutFlags="PositionProportional"
+                               Aspect="Fill"/>
+                    </Frame>
+                    <Label Text="DIVING"
+                           FontFamily="UniSans"
+                           FontSize="22"
+                           AbsoluteLayout.LayoutBounds="7, 201"
+                           TextColor="White"/>
+                    <ImageButton Source="{AppThemeBinding Light=discover_button_light.xml, Dark=discover_button_dark.xml}"
+                                 AbsoluteLayout.LayoutBounds="214, 199"
+                                 Clicked="Two"/>
+                </AbsoluteLayout>
+                <AbsoluteLayout>
+                    <Frame Margin="0, 20, 0, 0"
+                           CornerRadius="20" 
+                           HeightRequest="220"
+                           WidthRequest="366">
+                        <Image Source="Hiking1.jpg"
+                               AbsoluteLayout.LayoutBounds="0.5, 0.5"
+                               AbsoluteLayout.LayoutFlags="PositionProportional"
+                               Aspect="Fill"/>
+                    </Frame>
+                    <Label Text="HIKING"
+                           FontFamily="UniSans"
+                           FontSize="22"
+                           AbsoluteLayout.LayoutBounds="7, 201"
+                           TextColor="White"/>
+                    <ImageButton Source="{AppThemeBinding Light=discover_button_light.xml, Dark=discover_button_dark.xml}"
+                                 AbsoluteLayout.LayoutBounds="214, 199"
+                                 Clicked="Three"/>
+                </AbsoluteLayout>
+                <AbsoluteLayout>
+                    <Frame Margin="0, 20, 0, 0"
+                           CornerRadius="20" 
+                           HeightRequest="220"
+                           WidthRequest="366">
+                        <Image Source="Kayaking1.jpg"
+                               AbsoluteLayout.LayoutBounds="0.5, 0.5"
+                               AbsoluteLayout.LayoutFlags="PositionProportional"
+                               Aspect="Fill"/>
+                    </Frame>
+                    <Label Text="KAYAKING"
+                           FontFamily="UniSans"
+                           FontSize="22"
+                           AbsoluteLayout.LayoutBounds="7, 201"
+                           TextColor="White"/>
+                    <ImageButton Source="{AppThemeBinding Light=discover_button_light.xml, Dark=discover_button_dark.xml}"
+                                 AbsoluteLayout.LayoutBounds="214, 199"
+                                 Clicked="Four"/>
+                </AbsoluteLayout>
+                <AbsoluteLayout>
+                    <Frame Margin="0, 20, 0, 20"
+                           CornerRadius="20" 
+                           HeightRequest="220"
+                           WidthRequest="366">
+                        <Image Source="Surfing1.jpg"
+                               AbsoluteLayout.LayoutBounds="0.5, 0.5"
+                               AbsoluteLayout.LayoutFlags="PositionProportional"
+                               Aspect="Fill"/>
+                    </Frame>
+                    <Label Text="SURFING"
+                           FontFamily="UniSans"
+                           FontSize="22"
+                           AbsoluteLayout.LayoutBounds="7, 201"
+                           TextColor="White"/>
+                    <ImageButton Source="{AppThemeBinding Light=discover_button_light.xml, Dark=discover_button_dark.xml}"
+                                 AbsoluteLayout.LayoutBounds="214, 199"
+                                 Clicked="Five"/>
+                </AbsoluteLayout>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

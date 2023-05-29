@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SamarTime.Attractions.BalantakPage">
+    <StackLayout>
+        <ScrollView VerticalScrollBarVisibility="Never">
+            <StackLayout Margin="10,0">
+                <Frame Margin="0,20,0,0" 
+                       CornerRadius="20"
+                       HeightRequest="250">
+                    <Image Source="BalantakFalls.jpg"
+                           Aspect="Fill"/>
+                </Frame>
+                <Label Text="BALANTAK FALLS"
+                       FontSize="35"
+                       FontAttributes="Bold"
+                       FontFamily="NormalSometimes"/>
+                <Label Text="       Balantak falls is in Rawis which is one barangay next to Sohoton. This fall is composed of three waterfalls. You can also trek to the waterfalls. It’s cold and falling waters are just perfect to comfort and massage tired body. In going to Balantak falls it takes time but when you see the falls you can say that it was worth all the energy that you have exerted. In going to Balantak you can also ride habal-habal."
+                       FontSize="20"
+                       HorizontalOptions="FillAndExpand"
+                       FontFamily="UniSans" Margin="0,10,0,0"
+                       />
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

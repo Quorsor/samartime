@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SamarTime.Activities.SurfingPage">
+    <StackLayout>
+        <ScrollView VerticalScrollBarVisibility="Never">
+            <StackLayout Margin="10,0">
+                <Frame Margin="0,20,0,0" 
+                       CornerRadius="20"
+                       HeightRequest="250">
+                    <Image Source="Surfing3.jpg"
+                           Aspect="Fill"/>
+                </Frame>
+                <Label Text="SURFING"
+                       FontSize="35"
+                       FontAttributes="Bold"
+                       FontFamily="NormalSometimes"/>
+                <Label Text="       Samar is a great destination for surfing enthusiasts, particularly at Calicoan Island. The island is known for its long, peeling waves that are perfect for both beginner and advanced surfers. The best time to surf in Calicoan Island is from November to March, during the northeast monsoon season when the waves are consistent and the wind is offshore. There are a few surf camps and resorts in the area that offer surf lessons, board rentals, and accommodations for visitors. Aside from Calicoan Island, there are also other surf spots in Samar such as Sulangan and Guiuan."
+                       FontSize="20"
+                       HorizontalOptions="FillAndExpand"
+                       FontFamily="UniSans" Margin="0,10,0,0"
+                       />
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

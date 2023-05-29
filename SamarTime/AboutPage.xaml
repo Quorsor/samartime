@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="About Us"
+             x:Class="SamarTime.AboutPage">
+    <ScrollView>
+        <StackLayout HorizontalOptions="Center">
+        <Frame BackgroundColor="Transparent"
+               WidthRequest="250"
+               HeightRequest="250" Margin="0,10,0,0">
+            <Image Source="@mipmap/logo.png"/>
+        </Frame>
+        <Label Text="SamarTime"
+               FontSize="40"
+               HorizontalOptions="Center"
+               FontFamily="NormalSometimes"/>
+        <Label Text="Welcome to SamarTime! Your On-The-Go guide to exploring Samar! Explore the wonders of Samar as we guide you through the wondrous attractions, delicious foods and help you make this adventure! It's SamarTime!"
+               Margin="20"
+               FontSize="20"
+               FontFamily="UniSans"/>
+        <Label Text="WHO DEVELOPED SAMARTIME?"
+               Margin="20,20,20,0"
+               FontSize="23"
+               FontFamily="RockoFLF"
+               FontAttributes="Bold"/>
+        <Label Text="We are the developers of SamarTime, under the company, Coastal Charms!"
+               Margin="20, 5, 20, 0"
+               FontSize="20"
+               FontFamily="UniSans"/>
+        <Label Text="Therese Jane Reynaldo"
+               Margin="20, 20, 20, 0"
+               FontSize="20"
+               FontAttributes="Bold"
+               FontFamily="RockoFLF"/>
+        <Label Text="I am the Team Lead, Head Designer and one of the people who sorted the content for SamarTime!"
+               Margin="20, 5, 20, 0"
+               FontSize="20"
+               FontFamily="UniSans"/>
+        <Label Text="Rob Joseph Emman Ricamonte"
+               Margin="20, 20, 20, 0"
+               FontSize="20"
+               FontAttributes="Bold"
+               FontFamily="RockoFLF"/>
+        <Label Text="I am the Head Programmer of SamarTime!"
+               Margin="20, 5, 20, 0"
+               FontSize="20"
+               FontFamily="UniSans"/>
+            <Label Text="Henrie Denzel Huit"
+               Margin="20, 20, 20, 0"
+               FontSize="20"
+               FontAttributes="Bold"
+               FontFamily="RockoFLF"/>
+            <Label Text="I am a Programmer and Designer of SamarTime!"
+               Margin="20, 5, 20, 0"
+               FontSize="20"
+               FontFamily="UniSans"/>
+            <Label Text="Kxzyah Wyb Ibabao"
+               Margin="20, 20, 20, 0"
+               FontSize="20"
+               FontAttributes="Bold"
+               FontFamily="RockoFLF"/>
+            <Label Text="I am one of the Programmers and one of the people who sorted the content for SamarTime!"
+               Margin="20, 5, 20, 0"
+               FontSize="20"
+               FontFamily="UniSans"/>
+            <Label Text="Ma. Jodela Rovelo"
+               Margin="20, 20, 20, 0"
+               FontSize="20"
+               FontAttributes="Bold"
+               FontFamily="RockoFLF"/>
+            <Label Text="I am one of the people who sorted the content for SamarTime!"
+               Margin="20, 5, 20, 20"
+               FontSize="20"
+               FontFamily="UniSans"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

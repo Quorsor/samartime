@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SamarTime.AccommodationsPage">
+    <StackLayout>
+        <StackLayout HorizontalOptions="Center">
+            <ScrollView VerticalScrollBarVisibility="Never">
+                <StackLayout>
+                    <Label Text="ACCOMMODATIONS"
+                   FontSize="30"
+                   FontFamily="NormalSometimes"
+                   Padding="0, 20, 0, 0"
+                   TextColor="White"/>
+                    <AbsoluteLayout>
+                        <Frame Margin="0, 0, 0, 0"
+                           CornerRadius="20" 
+                           HeightRequest="220"
+                           WidthRequest="366">
+                            <Image Source="ciriacohotel1.jpg"
+                               AbsoluteLayout.LayoutBounds="0.5, 0.5"
+                               AbsoluteLayout.LayoutFlags="PositionProportional"
+                               Aspect="Fill"/>
+                        </Frame>
+                        <Label Text="CIRIACO HOTEL"
+                           FontFamily="UniSans"
+                           FontSize="22"
+                           AbsoluteLayout.LayoutBounds="7, 160"
+                           WidthRequest="100"
+                           TextColor="White"/>
+                        <ImageButton Source="{AppThemeBinding Light=discover_button_light.xml, Dark=discover_button_dark.xml}"
+                                 AbsoluteLayout.LayoutBounds="214, 179"
+                                 Clicked="One"/>
+                    </AbsoluteLayout>
+                    <AbsoluteLayout>
+                        <Frame Margin="0, 20, 0, 20"
+                           CornerRadius="20" 
+                           HeightRequest="220"
+                           WidthRequest="366">
+                            <Image Source="gvhotel1.jpg"
+                               AbsoluteLayout.LayoutBounds="0.5, 0.5"
+                               AbsoluteLayout.LayoutFlags="PositionProportional"
+                               Aspect="Fill"/>
+                        </Frame>
+                        <Label Text="GV Hotel"
+                           FontFamily="UniSans"
+                           FontSize="22"
+                           AbsoluteLayout.LayoutBounds="7, 201"
+                           TextColor="White"/>
+                        <ImageButton Source="{AppThemeBinding Light=discover_button_light.xml, Dark=discover_button_dark.xml}"
+                                 AbsoluteLayout.LayoutBounds="214, 199"
+                                 Clicked="Two"/>
+                    </AbsoluteLayout>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

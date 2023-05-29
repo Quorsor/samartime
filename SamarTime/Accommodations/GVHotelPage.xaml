@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SamarTime.Accommodations.GVHotelPage">
+    <StackLayout>
+        <ScrollView VerticalScrollBarVisibility="Never">
+            <StackLayout Margin="10,0">
+                <Frame Margin="0,20,0,0" 
+                       CornerRadius="20"
+                       HeightRequest="250">
+                    <Image Source="gvhotel1.jpg"
+                           Aspect="Fill"/>
+                </Frame>
+                <Label Text="GV Hotel - Catbalogan"
+                       FontSize="35"
+                       FontAttributes="Bold"
+                       FontFamily="NormalSometimes"/>
+                <Label Text="       GV Hotel - Catbalogan is a budget hotel located in Catbalogan City, Samar, Philippines. It offers affordable accommodations for travelers who are looking for a comfortable and convenient place to stay. The hotel provides basic amenities such as air conditioning, hot and cold showers. The hotel's location is convenient for those who want to explore the city and its nearby attractions. It is within walking distance to restaurants, shops, and public transportation. "
+                       FontSize="20"
+                       HorizontalOptions="FillAndExpand"
+                       FontFamily="UniSans" Margin="0,10,0,0"
+                       />
+                <Label Text="FACILITIES"
+                       FontSize="30"
+                       FontFamily="NormalSometimes"
+                       FontAttributes="Bold" 
+                       Margin="0,20,0,0"/>
+                <Label Text="-> Free Parking"
+                       FontSize="25"
+                       FontFamily="UniSans"
+                       FontAttributes="Bold" 
+                       Margin="0,10,0,0"/>
+                <Label Text="-> Free Wi-Fi"
+                       FontSize="25"
+                       FontFamily="UniSans"
+                       FontAttributes="Bold" 
+                       Margin="0,10,0,0"/>
+                <Label Text="-> Non-smoking Rooms"
+                       FontSize="25"
+                       FontFamily="UniSans"
+                       FontAttributes="Bold" 
+                       Margin="0,10,0,0"/>
+                <Label Text="SERVICES"
+                       FontSize="30"
+                       FontFamily="NormalSometimes"
+                       FontAttributes="Bold" 
+                       Margin="0,20,0,0"/>
+                <Label Text="-> Daily Housekeeping"
+                       FontSize="25"
+                       FontFamily="UniSans"
+                       FontAttributes="Bold" 
+                       Margin="0,10,0,0"/>
+                <Label Text="-> 24-Hour Front Desk"
+                       FontSize="25"
+                       FontFamily="UniSans"
+                       FontAttributes="Bold" 
+                       Margin="0,10,0,20"/>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

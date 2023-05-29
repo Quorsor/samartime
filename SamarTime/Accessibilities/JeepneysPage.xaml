@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SamarTime.Accessibilities.JeepneysPage">
+    <StackLayout>
+        <ScrollView VerticalScrollBarVisibility="Never">
+            <StackLayout Margin="10,0">
+                <Frame Margin="0,20,0,0" 
+                       CornerRadius="20"
+                       HeightRequest="250">
+                    <Image Source="SamarJeepneys2.jpg"
+                           Aspect="Fill"/>
+                </Frame>
+                <Label Text="Jeepneys"
+                       FontSize="35"
+                       FontAttributes="Bold"
+                       FontFamily="NormalSometimes"/>
+                <Label Text="       Jeepneys are the most common mode of transportation in Samar, particularly in rural areas. These vehicles can be crowded and uncomfortable, but they are also affordable and offer a unique cultural experience."
+                       FontSize="20"
+                       HorizontalOptions="FillAndExpand"
+                       FontFamily="UniSans" Margin="0,10,0,0"
+                       />
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

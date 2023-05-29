@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SamarTime.Activities.CavingPage">
+    <StackLayout>
+        <ScrollView VerticalScrollBarVisibility="Never">
+            <StackLayout Margin="10,0">
+                <Frame Margin="0,20,0,0" 
+                       CornerRadius="20"
+                       HeightRequest="250">
+                    <Image Source="Caving2.jpg"
+                           Aspect="Fill"/>
+                </Frame>
+                <Label Text="SNORKELING OR DIVING"
+                       FontSize="35"
+                       FontAttributes="Bold"
+                       FontFamily="NormalSometimes"/>
+                <Label Text="       Samar is a great destination for snorkeling and diving enthusiasts. Biri Island is one of the popular diving spots in Samar. Biri island has more than twenty known dive sites, which includes house reef. A coral garden mound is 6 meters below the surface down to 20 meters. The beauty of coral with 70 feet of visibility and on descent you might encounter a 2-meter long Laticauda – sea krait. The best time to go diving is during summer or dry months, from February to May."
+                       FontSize="20"
+                       HorizontalOptions="FillAndExpand"
+                       FontFamily="UniSans" Margin="0,10,0,0"
+                       />
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

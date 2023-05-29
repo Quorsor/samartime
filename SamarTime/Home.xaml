@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="SamarTime"
+             x:Class="SamarTime.Home">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="@mipmap/logo.png"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Background>
+        <LinearGradientBrush EndPoint="1, 1">
+            <GradientStop Color="{AppThemeBinding Light=#318CB9,Dark=#1F082C}"
+                          Offset="0.1"/>
+            <GradientStop Color="{AppThemeBinding Light=#7199B8,Dark=#053A63}"
+                          Offset="0.9"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+    <StackLayout>
+        <ScrollView VerticalScrollBarVisibility="Never">
+            <StackLayout HorizontalOptions="Center">
+                <AbsoluteLayout>
+                    <Frame Margin="0, 20, 0, 0"
+                           CornerRadius="20" 
+                           HeightRequest="220"
+                           WidthRequest="366">
+                        <Image Source="Tarsier.jpg"
+                               AbsoluteLayout.LayoutBounds="0.5, 0.5"
+                               AbsoluteLayout.LayoutFlags="PositionProportional"
+                               Aspect="Fill"/>
+                    </Frame>
+                    <Label Text="ISLAND"
+                           AbsoluteLayout.LayoutBounds="200, 162"
+                           FontSize="25"
+                           FontFamily="UniSans"
+                           TextColor="White"/>
+                    <Label Text="SAMAR"
+                           AbsoluteLayout.LayoutBounds="220, 185"
+                           FontSize="40"
+                           FontFamily="UniSans"
+                           TextColor="White"/>
+                </AbsoluteLayout>
+                <Label Text="Unleash the adventure within as you explore the hidden treasures of Samar"
+                       WidthRequest="366"
+                       HorizontalOptions="FillAndExpand"
+                       FontFamily="RockoFLF"
+                       FontSize="16"
+                       TextColor="White"/>
+                <Label Text="YOU MIGHT LIKE..."
+                       FontFamily="NormalSometimes"
+                       FontSize="35"
+                       TextColor="White"/>
+                <StackLayout Orientation="Horizontal">
+                    <AbsoluteLayout>
+                        <BoxView Color="AntiqueWhite"
+                                 HeightRequest="320"
+                                 WidthRequest="180"
+                                 Margin="0, 10, 0, 0"
+                                 CornerRadius="10"/>
+                        <Button Text="discover"
+                                AbsoluteLayout.LayoutBounds="90, 280"/>
+                    </AbsoluteLayout>
+                    <AbsoluteLayout>
+                        <BoxView Color="AntiqueWhite"
+                                 HeightRequest="320" 
+                                 WidthRequest="180" 
+                                 Margin="0, 10, 0, 0"
+                                 CornerRadius="10"/>
+                        <Button Text="discover"
+                                AbsoluteLayout.LayoutBounds="90, 280"/>
+                    </AbsoluteLayout>
+                </StackLayout>
+                <Label Text="WHERE DO YOU WANT TO START"
+                       FontFamily="NormalSometimes"
+                       HorizontalOptions="FillAndExpand"
+                       WidthRequest="366"
+                       FontSize="35"
+                       TextColor="White"/>
+                <AbsoluteLayout>
+                    <Frame Margin="0, 20, 0, 0"
+                           CornerRadius="20" 
+                           HeightRequest="220"
+                           WidthRequest="366">
+                        <Image Source="Accommodations.jpg"
+                               AbsoluteLayout.LayoutBounds="0.5, 0.5"
+                               AbsoluteLayout.LayoutFlags="PositionProportional"
+                               Aspect="Fill"/>
+                    </Frame>
+                    <Label Text="ACCOMMODATIONS"
+                           FontFamily="UniSans"
+                           FontSize="22"
+                           AbsoluteLayout.LayoutBounds="7, 201"
+                           TextColor="White"/>
+                    <ImageButton Source="{AppThemeBinding Light=discover_button_light.xml, Dark=discover_button_dark.xml}"
+                                 AbsoluteLayout.LayoutBounds="214, 199"
+                                 Clicked="Accommodations"/>
+                </AbsoluteLayout>
+                <AbsoluteLayout>
+                    <Frame Margin="0, 20, 0, 0"
+                           CornerRadius="20" 
+                           HeightRequest="220"
+                           WidthRequest="366">
+                        <Image Source="Accessibility.jpg"
+                               AbsoluteLayout.LayoutBounds="0.5, 0.5"
+                               AbsoluteLayout.LayoutFlags="PositionProportional"
+                               Aspect="Fill"/>
+                    </Frame>
+                    <Label Text="ACCESSIBILITY"
+                           FontFamily="UniSans"
+                           FontSize="22"
+                           AbsoluteLayout.LayoutBounds="7, 201"
+                           TextColor="White"/>
+                    <ImageButton Source="{AppThemeBinding Light=discover_button_light.xml, Dark=discover_button_dark.xml}"
+                                 AbsoluteLayout.LayoutBounds="214, 199"
+                                 Clicked="Accessibility"/>
+                </AbsoluteLayout>
+                <AbsoluteLayout>
+                    <Frame Margin="0, 20, 0, 0"
+                           CornerRadius="20" 
+                           HeightRequest="220"
+                           WidthRequest="366">
+                        <Image Source="Acti.jpg"
+                               AbsoluteLayout.LayoutBounds="0.5, 0.5"
+                               AbsoluteLayout.LayoutFlags="PositionProportional"
+                               Aspect="Fill"/>
+                    </Frame>
+                    <Label Text="ACTIVITIES"
+                           FontFamily="UniSans"
+                           FontSize="22"
+                           AbsoluteLayout.LayoutBounds="7, 201"
+                           TextColor="White"/>
+                    <ImageButton Source="{AppThemeBinding Light=discover_button_light.xml, Dark=discover_button_dark.xml}"
+                                 AbsoluteLayout.LayoutBounds="214, 199"
+                                 Clicked="Activities"/>
+                </AbsoluteLayout>
+                <AbsoluteLayout>
+                    <Frame Margin="0, 20, 0, 0"
+                           CornerRadius="20" 
+                           HeightRequest="220"
+                           WidthRequest="366">
+                        <Image Source="Amenities.jpg"
+                               AbsoluteLayout.LayoutBounds="0.5, 0.5"
+                               AbsoluteLayout.LayoutFlags="PositionProportional"
+                               Aspect="Fill"/>
+                    </Frame>
+                    <Label Text="AMENITIES"
+                           FontFamily="UniSans"
+                           FontSize="22"
+                           AbsoluteLayout.LayoutBounds="7, 201"
+                           TextColor="White"/>
+                    <ImageButton Source="{AppThemeBinding Light=discover_button_light.xml, Dark=discover_button_dark.xml}"
+                                 AbsoluteLayout.LayoutBounds="214, 199"
+                                 Clicked="Amenities"/>
+                </AbsoluteLayout>
+                <AbsoluteLayout>
+                    <Frame Margin="0, 20, 0, 20"
+                           CornerRadius="20" 
+                           HeightRequest="220"
+                           WidthRequest="366">
+                        <Image Source="Attractions.png"
+                               AbsoluteLayout.LayoutBounds="0.5, 0.5"
+                               AbsoluteLayout.LayoutFlags="PositionProportional"
+                               Aspect="Fill"/>
+                    </Frame>
+                    <Label Text="ATTRACTIONS"
+                           FontFamily="UniSans"
+                           FontSize="22"
+                           AbsoluteLayout.LayoutBounds="7, 201"
+                           TextColor="White"/>
+                    <ImageButton Source="{AppThemeBinding Light=discover_button_light.xml, Dark=discover_button_dark.xml}"
+                                 AbsoluteLayout.LayoutBounds="214, 199"
+                                 Clicked="Attractions"/>
+                </AbsoluteLayout>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

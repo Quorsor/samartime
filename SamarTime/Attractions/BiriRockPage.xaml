@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SamarTime.Attractions.BiriRockPage">
+    <StackLayout>
+        <ScrollView VerticalScrollBarVisibility="Never">
+            <StackLayout Margin="10,0">
+                <Frame Margin="0,20,0,0" 
+                       CornerRadius="20"
+                       HeightRequest="250">
+                    <Image Source="BiriRockFormations.jpg"
+                           Aspect="Fill"/>
+                </Frame>
+                <Label Text="BIRI ROCK FORMATIONS"
+                       FontSize="35"
+                       FontAttributes="Bold"
+                       FontFamily="NormalSometimes"/>
+                <Label Text="       Biri Rock Formations are a unique geological wonder located on Biri Island, which is part of Northern Samar province in the Philippines. These rock formations were formed over thousands of years through natural weathering and erosion caused by the strong waves of the Pacific Ocean. The Biri Rock Formations consist of several towering rock pillars that jut out from the sea, with unique shapes and formations that resemble cathedrals, forts, and other structures. The most notable rock formations are called Magasang, Magsapad, Macadlaw, Puhunan, and Bel-at, and they offer stunning panoramic views of the surrounding ocean and landscapes."
+                       FontSize="20"
+                       HorizontalOptions="FillAndExpand"
+                       FontFamily="UniSans" Margin="0,10,0,0"
+                       />
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

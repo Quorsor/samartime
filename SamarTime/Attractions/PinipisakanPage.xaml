@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SamarTime.Attractions.PinipisakanPage">
+    <StackLayout>
+        <ScrollView VerticalScrollBarVisibility="Never">
+            <StackLayout Margin="10,0">
+                <Frame Margin="0,20,0,0" 
+                       CornerRadius="20">
+                    <Image Source="Pinipisakanfalls1.jpg"
+                           Aspect="Fill"/>
+                </Frame>
+                <Label Text="PINIPISAKAN FALLS"
+                       FontSize="35"
+                       FontAttributes="Bold"
+                       FontFamily="NormalSometimes"/>
+                <Label Text="       Pinipisakan Falls is a hidden gem located in the town of San Jorge, Western Samar, Philippines. It is a series of waterfalls nestled in a lush tropical forest, offering a serene and secluded natural beauty. The falls feature crystal-clear waters that cascade down several tiers, creating small pools where visitors can take a refreshing dip. The surrounding area is rich with verdant greenery, making it a picturesque spot for nature lovers and photographers."
+                       FontSize="20"
+                       HorizontalOptions="FillAndExpand"
+                       FontFamily="UniSans" Margin="0,10,0,0"
+                       />
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>
