@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mLsTGfE/fKJ9cY9fImSrp3PbaRCbSXyLLMCSg4cIeXH4pDd9CRTA+gpBHOT+hidkcRTTocNSOhk7ujlO2xUqVQ==",
+  "dgSpecHash": "SC1TmoETsQUjj74i1vpsUD+jvKM7XFaJeDnMEoP6WZCKqiwd6G0FE2/rJ+9ji8K3Z1DVcvLSy16rjEBvmXnAPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\SamarTime\\SamarTime.Android\\SamarTime.Android.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\SamarTime\\SamarTime\\SamarTime.Android\\SamarTime.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\brutile\\4.0.0\\brutile.4.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\fizzler\\1.2.0\\fizzler.1.2.0.nupkg.sha512",

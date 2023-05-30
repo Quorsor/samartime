@@ -4245,11 +4245,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\SamarTime\\SamarTime.Android\\SamarTime.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\SamarTime\\SamarTime\\SamarTime.Android\\SamarTime.Android.csproj",
       "projectName": "SamarTime.Android",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\SamarTime\\SamarTime.Android\\SamarTime.Android.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\SamarTime\\SamarTime\\SamarTime.Android\\SamarTime.Android.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\SamarTime\\SamarTime.Android\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\SamarTime\\SamarTime\\SamarTime.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -4270,8 +4270,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\Admin\\Desktop\\SamarTime\\SamarTime\\SamarTime.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Desktop\\SamarTime\\SamarTime\\SamarTime.csproj"
+            "C:\\Users\\Admin\\Desktop\\SamarTime\\SamarTime\\SamarTime\\SamarTime.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\SamarTime\\SamarTime\\SamarTime\\SamarTime.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TPayVUGO8sGxMlsO1xOfKyJCSMxP5JZawttS6wFV/P3XMf6+l5U6caax6cVnzNUOgHrGi0UpjxQ+Fp/QJRha7g==",
+  "dgSpecHash": "pIIZAt2Occd7tqjpaZNv+twEjMtnKSR6XfR7v4Ns735wZnSoip414+ip3srpmIMHPZb9JLFbnSpQ2tHIU3Q+og==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\SamarTime\\SamarTime\\SamarTime.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\SamarTime\\SamarTime\\SamarTime\\SamarTime.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\brutile\\4.0.0\\brutile.4.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\fizzler\\1.2.0\\fizzler.1.2.0.nupkg.sha512",
