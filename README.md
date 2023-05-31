@@ -1,14 +1,2 @@
-# SamarTime
-
-some app we made to pass
-
-# Roadmap
-
-Infographics about accomodations, places, food. (required)
-
-Search function. (required)
-
-Map function that tells what part of Samar the place is.
-
-Schedule Calendar for open accomodations.
-
+# Defense Build of SamarTime
+This build is the build that was presented on final defense. This build is not intended to be changed or be developed on any more. This branch only serves as archive purposes.
